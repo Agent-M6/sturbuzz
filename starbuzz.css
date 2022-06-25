@@ -1,0 +1,186 @@
+body { 
+  background-color: #b5a789;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+header {
+  background-color: #675c47;
+  margin:           10px 10px 0px 10px;
+  height:           108px;
+  z-index: 2;
+}
+
+#header2:hover {
+	transform: translateX(175px);
+	-webkit-transform: translateX(175px); /* Safari, Chrome, mobile Safari, and Android */
+	-moz-transform: translateX(175px); /* Firefox */
+	-o-transform: translateX(175px); /* Opera */
+	-ms-transform: translateX(175px); /* IE 9 */
+	 transition: transform 5s;
+}
+
+#best {
+	position: absolute;
+	top: 25px;
+	left: 50%;
+	z-index: 0;
+}
+
+#coupon {
+	position: fixed;
+	top: 220px;
+	left: -7%;
+	width: 120px;
+	z-index: 1;
+	transition: transform 1s;
+}
+
+#coupon:hover {
+	transform: translateX(75px);
+	-webkit-transform: translateX(75px); /* Safari, Chrome, mobile Safari, and Android */
+	-moz-transform: translateX(75px); /* Firefox */
+	-o-transform: translateX(75px); /* Opera */
+	-ms-transform: translateX(75px); /* IE 9 */
+}
+
+#header3 {
+	float: right;
+}
+
+section#drinks {
+	display: table-cell;
+	width: 17%;
+	background-color: #efe5d0;
+	 font-size:        92%;
+	 padding:          15px;
+     vertical-align: top;
+}
+
+section#main {
+	display: table-cell;
+	width: 65%;
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+section#blog {
+	display: table-cell;
+	width: 65%;
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+aside {
+	display: table-cell;
+
+ background:       #efe5d0 url(images/background.gif) bottom right;
+ font-size:        100%;
+ padding:          15px;
+ vertical-align: top;
+}
+
+/* #allconnect {
+	width: 1000px;
+	padding: 5 0;
+	background-color: #675c47;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+div#tablecontainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tablerow {
+	display: table-row;
+}
+
+footer {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  font-size:        90%;
+  clear: right;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+  transition: transform 2s;
+-webkit-transition: -webkit-transform 2s;
+-moz-transition: -moz-transform 2s;
+}
+
+h1:hover {
+			transform: scale(1, -1);
+			-webkit-transform: scale(1, -1); /* Safari, Chrome, mobile Safari, and Android */
+			-moz-transform: scale(1, -1); /* Firefox */
+			-o-transform: scale(1, -1); /* Opera */
+			-ms-transform: scale(1, -1); /* IE 9 */
+		}
+
+.slogan { 
+color: #954b4b; 
+}
+
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+a:hover {
+	background: lime;
+	color: black;
+}
+ 
+nav {
+	background-color: #efe5d0;
+	margin: 10px 10px 0px 10px;
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+	}
+	
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+	
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+	}
+	
+nav ul li a:hover {
+	background: #c8b99c;
+}
+	
+nav ul li.selected {
+	background-color: #c8b99c;
+	}
+	
